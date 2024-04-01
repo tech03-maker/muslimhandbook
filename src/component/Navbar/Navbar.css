@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgba(3, 3, 43, 1);
+}
+
+.navbar-brand span {
+  padding-left: 3px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link:focus {
+  text-decoration: 2px underline;
+}
+
+.dropdown-menu .dropdown-item:focus {
+  background-color: #5c0118;
+  color: white;
+}
+
+form .btn {
+  background-color: white;
+  color: rgba(3, 3, 43, 1);
+  font-weight: 600;
+}
+
+form .btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+form .btn:focus {
+  border: 3px solid white;
+}
